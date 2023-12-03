@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hồ cá vui nhộn</title>
+        <meta charset ="UTF-8">
+        <link rel ="stylesheet" href ="./style.css">
+    </head>
+    <body  id="body">
+        <div class="content">
+            <div class ="shark"><img src="./images/shark.png" width = "auto" height = "auto"></div></script></div></div>
+            <div class ="goldfish"><img src="./images/goldFishSchool.png" width = "auto" height = "auto";></div>
+            <div class ="bluefish"><img src="./images/faintSchool.png" width="auto" height ="auto"></div>
+            <div class ="rua"><img src="./images/turtle.png" width="auto" height ="auto"></div>
+            <div class ="tholan1"><img src="./images/diver1.png" width="auto" height ="auto"></div>
+            <div class ="tholan2"><img src="./images/diver2.png" width="auto" height ="auto"></div>
+            <div class ="tholan3"><img src="./images/diver3.png" width="auto" height ="auto"></div>
+        </div>
+        <button onclick="changeBackground('./images/1207071.jpg')">Đổi hình 1</button>
+        <button onclick="changeBackground('./images/1338268.png')">Đổi hình 2</button>
+        <button onclick="changeBackground('./images/729492.jpg')">Đổi hình 3</button>
+        <script>
+            function changeBackground(imageUrl) {
+                document.getElementById('body').style.backgroundImage = 'url(' + imageUrl + ')';
+            }
+        </script>
+    </body>
+</html>

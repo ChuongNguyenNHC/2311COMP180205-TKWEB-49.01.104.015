@@ -1,0 +1,184 @@
+body {
+    background-image: url(./images/521631.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 1200px;
+    height: 700px;
+}
+.shark {
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes shark {
+    0% {left: 500px;top: 300px;}
+    20%{left: 1200px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 300px;top: 100px;}
+    60%{left: 300px;top: 100px;}
+    80%{left: 200px; top: 200px;}
+    100%{left: 200px; top: 100px; transform: scaleX(-1);}
+}
+
+.goldfish {
+    left: 450px;
+    top: 500px;
+    position:absolute;
+    animation-name: goldfish;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes goldfish {
+    0% {left: 100px;top: 100px;}
+    20%{left: 300px;top: 800px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 900px;top: 400px;}
+    60%{left: 500px;top: 300px;}
+    80%{left: 000px; top: 200px;}
+    100%{left: 100px; top: 100px; transform: scaleX(-1);}
+}
+.rua{
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    animation-name: rua;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua{
+    0% {left: 500px;top: 300px;}
+    20%{left: 1200px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 700px;top: 100px;}
+    60%{left: 300px;top: 700px;}
+    80%{left: 800px; top: 200px;}
+    100%{left: 200px; top: 800px; transform: scaleX(-1);}
+}
+
+.bluefish{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: bluefish;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes bluefish{
+    0% {left: 400px;top: 100px;}
+    20%{left: 300px;top: 800px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 400px;top: 700px;}
+    60%{left: 500px;top: 500px;}
+    80%{left: 200px; top: 900px;}
+    100%{left: 100px; top: 700px; transform: scaleX(-1);}
+}
+.rua{
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    animation-name: rua;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua{
+    0% {left: 500px;top: 300px;}
+    20%{left: 1200px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 700px;top: 100px;}
+    60%{left: 300px;top: 700px;}
+    80%{left: 800px; top: 200px;}
+    100%{left: 200px; top: 800px; transform: scaleX(-1);}
+}
+.tholan1{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: tholan1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tholan1{
+    0% {left: 400px;top: 300px;}
+    20%{left: 100px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 200px;top: 400px;}
+    60%{left: 500px;top: 500px;}
+    80%{left: 700px; top: 900px;}
+    100%{left: 700px; top: 700px; transform: scaleX(-1);}
+}
+.tholan2{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: tholan2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tholan2 {
+    0% {left: 500px;top: 100px;}
+    20%{left: 1200px;top: 50px;}
+    40%{left: 200px;top: 10px;}
+    50%{left: 700px;top: 50px;}
+    60%{left: 300px;top: 700px;}
+    80%{left: 800px; top: 200px;}
+    100%{left: 200px; top: 800px; transform: scaleX(-1);}
+}
+.tholan3{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: tholan3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tholan3{
+    0% {left: 100px;top: 120px;}
+    20%{left: 340px;top: 700px;}
+    40%{left: 230px;top: 200px;}
+    50%{left: 80px;top: 50px;}
+    60%{left: 500px;top: 300px;}
+    80%{left: 90px; top: 200px;}
+    100%{left: 100px; top: 400px; transform: scaleX(-1);}
+}
+.botnuoc3 {
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: botnuoc3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes botnuoc3 {
+    0% {left: 100px;top: 120px;}
+    20%{left: 340px;top: 700px;}
+    40%{left: 230px;top: 200px;}
+    50%{left: 80px;top: 50px;}
+    60%{left: 500px;top: 300px;}
+    80%{left: 90px; top: 200px;}
+    100%{left: 100px; top: 400px; transform: scaleX(-1);}
+}
+
