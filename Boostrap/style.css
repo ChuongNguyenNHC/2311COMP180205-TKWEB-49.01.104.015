@@ -1,0 +1,121 @@
+.hh-header {
+    position:relative;
+    height: 170px;
+}
+
+.hh-logo {
+    right: 0px;
+    width: 400px;
+    position: absolute;
+    top: -80px;
+}
+
+.hh-company {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-shadow: 0 0 2px black;
+    position: absolute;
+    top: 45px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted gray;
+}
+
+.hh-slogan {
+    position: absolute;
+    top: 100px;
+}
+.hh-sheet {
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    margin-top: 20px;
+}
+
+.hh-body {
+    padding: 5px;
+}
+
+.hh-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: smaller;
+}
+
+.hh-cart img {
+    height: 30%;
+    width: 30%;
+}
+
+.hh-card {
+    margin: 7px 0;
+}
+
+.hh-product {
+    text-align: center;
+    padding: 5px 2px;
+    display: inline-block;
+}
+
+.hh-product .card-body-img {
+    height: 150px;
+    max-width: 95%;
+}
+
+.navbar-collapse ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar-collapse ul li {
+    float: left;
+}
+
+.navbar-collapse ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 50px;
+    display: block;
+}
+
+.navbar-collapse ul li form {
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 50px;
+    display: block;
+    padding-left: 120px;
+    margin-top: 10px;
+}
+
+.navbar-collapse ul li a:hover {
+    background-color: rgb(136, 131, 131);
+    border-bottom: 2px solid black;
+}
+.dotted-hr {
+    border-top: 1px dotted #000;
+    color: #fff;
+    background-color: #fff;
+}
+
+.soluong {
+    border: 1px solid black;
+    padding: 7px 20px 7px 20px;
+}
+
+.vien1{
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    padding: 7px 20px 7px 20px;
+}
+
+
