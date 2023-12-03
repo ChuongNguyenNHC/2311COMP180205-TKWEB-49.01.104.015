@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mua sản phẩm</title>
+        <meta charset = "UTF-8">
+        <link rel ="stylesheet" href="./sanpham.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".product").click(function(){
+                    $(this).find(".details").toggle();
+                });
+            });
+        </script>
+        <style>
+            .details {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./images/happy-halloween-banner-with-happy-kids-halloween-costumes-paper-cut-style_283146-657.avif" style="margin:auto; display: block;">
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./lienhe.html">Liên hệ</a></li>
+                <li><a href="./sanpham.html">Sản phẩm</a></li>
+                <li><a href="./hinhanh.html">Hình ảnh</a></li>
+                <li><a href="./dondangky.html">Đơn đăng ký</a></li>
+            </ul>
+        </div>
+        <div class="khung">
+            <h1 style ="color:white;">Sản phẩm Halloween</h1>
+            <div class="product">
+                <b style="color:white; font-size: 20px;">Nhãn con dơi</b>
+                <b class="details" style="margin-left: 40px;"><img src="./images/Iconcreme-Halloween-Bat.512.png" style="width: 50px; height: 50px;">
+                    <button type="button" class="btn btn-outline-warning" style="margin-left: 40px;"><b><a href="./xacnhan.html">Đặt mua</a></b></button>
+                </b> 
+            </div>
+            <div class="product">
+                <b style="color:white; font-size: 20px;">Nhãn con mèo</b>
+                <b class="details" style="margin-left: 40px;"><img src="./images/Iconcreme-Halloween-Cat.512.png" style="width: 50px; height: 50px;">
+                    <button type="button" class="btn btn-outline-warning" style="margin-left: 40px;"><b><a href="./xacnhan.html">Đặt mua</a></b></button>
+                </b> 
+            </div>
+            <div class="product">
+                <b style="color:white; font-size: 20px;">Nhãn bí ngô</b>
+                <b class="details" style="margin-left: 40px;"><img src="./images/Iconcreme-Halloween-Pumpkin.512.png" style="width: 50px; height: 50px;">
+                    <button type="button" class="btn btn-outline-warning" style="margin-left: 40px;"><b><a href="./xacnhan.html">Đặt mua</a></b></button>
+                </b> 
+            </div>
+            <div class="product">
+                <b style="color:white; font-size: 20px;">Nhãn xác ướp</b>
+                <b class="details" style="margin-left: 40px;"><img src="./images/Iconcreme-Halloween-Mummy.512.png" style="width: 50px; height: 50px;">
+                    <button type="button" class="btn btn-outline-warning" style="margin-left: 40px;"><b><a href="./xacnhan.html">Đặt mua</a></b></button>
+                </b> 
+            </div>
+            
+        </div>
+    </body>
+</html>
